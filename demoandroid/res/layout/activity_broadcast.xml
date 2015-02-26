@@ -1,0 +1,26 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+ 
+
+        <Button
+            android:id="@+id/brobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add" />
+
+        <Button
+            android:id="@+id/brobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="del" />
+
+      
+    </LinearLayout>
+
+</ScrollView>
