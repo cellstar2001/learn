@@ -44,10 +44,16 @@
             android:text="下载" />
 
         <TextView
-            android:id="@+id/main_button6"
+            android:id="@+id/main_text6"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="" />
+        
+         <Button
+            android:id="@+id/main_button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="屏幕滚动按钮" />
     </LinearLayout>
 
 </ScrollView>

@@ -17,7 +17,7 @@
             android:id="@+id/wifibutton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="按钮二" />
+            android:text="按钮二"/>
           <Button
             android:id="@+id/wifibutton3"
             android:layout_width="wrap_content"

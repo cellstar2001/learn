@@ -3,6 +3,7 @@ package com.example.demoandroid;
 import com.example.demoandroid.activitytest.TestActivity;
 import com.example.demoandroid.broadCast.BroadcastActivity;
 import com.example.demoandroid.broadCast.NetworkStateReceiver;
+import com.example.demoandroid.flip.ViewFlipperDemoActivity;
 import com.example.demoandroid.wifipassword.WifiActivity;
 
 
@@ -32,6 +33,8 @@ public class MainActivity extends Activity {
 		mBtn3 = (Button) findViewById(R.id.main_button3);
 		mBtn4 = (Button) findViewById(R.id.main_button4);
 		mBtn5 = (Button) findViewById(R.id.main_button5);
+		mBtn7= (Button) findViewById(R.id.main_button7);
+		
 
 		mBtn1.setOnClickListener(new Button.OnClickListener() {
 
@@ -78,6 +81,18 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				Intent testIntent = new Intent(MainActivity.this,
 						WifiActivity.class);
+				startActivity(testIntent);
+			}
+
+		});
+		
+		
+		mBtn7.setOnClickListener(new Button.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent testIntent = new Intent(MainActivity.this,
+						ViewFlipperDemoActivity.class);
 				startActivity(testIntent);
 			}
 

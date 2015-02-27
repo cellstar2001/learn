@@ -34,7 +34,11 @@
             android:name="com.example.demoandroid.wifipassword.WifiActivity"
             android:label="@string/title_activity_wifi_pass" >
         </activity>
-
+        <activity
+            android:name="com.example.demoandroid.flip.ViewFlipperDemoActivity"
+            android:label="@string/title_activity_flip" >
+        </activity>
+        
         <receiver android:name="com.example.demoandroid.broadCast.BroadcastReceiver1" >
             <intent-filter>
                 <action android:name="com.forrest.action.SENDMESSAGE" />
